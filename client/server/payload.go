@@ -108,3 +108,7 @@ type getValidatorsByDelegatorAddressRequest struct {
 type getModuleVersionsRequest struct {
 	ModuleName string `mapstructure:"module_name"`
 }
+
+type getEvmStakingWithdrawalQueueRequest struct {
+	Pagination pagination `mapstructure:"pagination"`
+}
